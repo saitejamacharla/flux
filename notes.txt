@@ -1,0 +1,22 @@
+bm-scan-data ???
+bm-rawmessage-data???
+bm-regex-data???
+bm-passenger-data???
+bm-bpm-aggregate???
+bm-bsm-aggregate
+bm-webapp-aggregate
+
+
+
+
+1. To install this chart run:
+
+helm install bm-scan-data-svc ./bm-scan-data-svc -n NAMESPACE
+
+2. Verify your installation:
+
+helm ls -n NAMESPACE
+
+kubectl get pods -n NAMESPACE
+
+kubectl get svc -n NAMESPACE
